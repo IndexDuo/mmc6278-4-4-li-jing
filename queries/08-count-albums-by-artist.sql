@@ -9,3 +9,4 @@ SELECT
   FROM albums
   INNER JOIN artists ON artists.id=albums.artist_id
   GROUP BY artists.id;
+
